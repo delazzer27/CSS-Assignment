@@ -3,7 +3,7 @@
     margin: 0px;
 }
 .hero-color {
-    background-color: #1F2937
+    background-color: #1F2937;
 }
 .light-color {
     color: #F9FAF8;
@@ -70,6 +70,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 50px 50px 0px 50px;
+    background-color: #1F2937
 }
 ul {
     display: flex;
