@@ -116,3 +116,8 @@ footer {
     align-items: stretch;
     align-content: space-between;
 }
+.logo {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+}
