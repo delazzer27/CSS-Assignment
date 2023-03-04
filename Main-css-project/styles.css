@@ -2,24 +2,23 @@
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
-.darkColor {
+.hero-color {
     background-color: #1F2937
 }
-.lightColor {
+.light-color {
     color: #F9FAF8;
 }
 h1 {
     font-size: 48px;
-}
-.headerLogo {
-    font-size: 24px;
+    width: 360px;
 }
 h2 {
     color: #E5E7EB;
     font-weight: lighter;
     padding-right: 20px;
+    width: 600px;
 }
-.buttonSection{
+.button-section{
     background-color: #3882F6;
     width: 900px;
     display: flex;
@@ -43,20 +42,18 @@ button:hover {
     background-color: #185ece;
     color: #F9FAF8;
 }
-.quoteSection {
+.quote-section {
     background-color: #E5E7EB;
     font-size: 24px;
     font-style: italic;
     font-weight: lighter;
     margin-top: 20px;
-}
-.quoteColor {
     color: #1F2937;
     padding: 20px;
 }
-.quoteAuthor {
-    display: flex;
-    justify-content: flex-end;
+
+.quote-author {
+    text-align: end;
     font-style: normal;
     font-weight: bold;
 }
@@ -64,32 +61,33 @@ img {
     width: 240px;
     height: 210px;
 }
-.heroImg {
+.hero-img {
     width: 400px;
     height: auto;
 }
-header {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px
+    padding: 50px 50px 0px 50px;
 }
-span {
+ul {
     display: flex;
     gap: 15px;
     font-size: 18px;
+    list-style-type: none;
 }
-.heroSection {
+.hero-section {
     display: flex;
-    padding: 50px;
+    padding: 10px 50px 50px 50px;
 }
-.randomInfo {
+.random-info {
     display: flex;
     justify-content: space-around;
     font-size: 18px;
     margin-top: 10px;
 }
-.randomInfo p {
+.random-info p {
     width: 240px;
 }
 h3 {
@@ -98,7 +96,7 @@ h3 {
     font-size: 24px;
     margin-top: 20px;
 }
-.centerSection {
+.center-section {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -109,8 +107,9 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 20px 0px 0px 0px;
+    background-color: #1F2937
 }
-.heroFlex {
+.hero-flex {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
